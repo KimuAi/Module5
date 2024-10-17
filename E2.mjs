@@ -28,6 +28,8 @@ else if(vormen == 'vierkant'){
     vierkant(zijde);
     console.log(vierkant(zijde));
 }
+else{
+console.log("BESTAAT NIET")}
  
 function cirkel(straal){
   let berekening = (Math.PI * straal * straal);
