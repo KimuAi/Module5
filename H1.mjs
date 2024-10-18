@@ -14,7 +14,7 @@ for(let a = 1 ; a < 100; a++){
         if(a % b == 0){
             som += b
         }
-     }
+        }
         if(som == a){
         console.log(a + " is een perfect getal")
         }
