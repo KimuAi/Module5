@@ -15,8 +15,8 @@ for(let a = 1; (getal - 1) >= a; a++){
             else{
              process.stdout.write(" + " + a);
             }
-          som += a;  
+          som += a;
         }
     }
-    process.stdout.write(" = " + som);  
+    process.stdout.write(" = " + som);
 }
