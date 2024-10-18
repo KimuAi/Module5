@@ -12,10 +12,10 @@ function random(min, max){
 let gebruiker = parseFloat(await userInput.question("Raad het getal tussen 1 - 10? "))
 
 if(gebruiker < computer){
-    console.log("Je hebt het niet geraden, het getal moet lager zijn!");
+    console.log("Je hebt het niet geraden, het getal moet hoger zijn!");
     }
     else if(gebruiker > computer){
-    console.log("Je hebt het niet geraden, het getal moet hoger zijn!");
+    console.log("Je hebt het niet geraden, het getal moet lager zijn!");
     }
     else{
     console.log("Je hebt het goed geraden! ")
