@@ -10,10 +10,10 @@ max(getal1, getal2)
 
 function min(getal1, getal2){
     let grootsteGetal = Math.max(getal1, getal2);
-    console.log("Grootste getal:" + grootsteGetal);}
+    console.log("Grootste getal is:" + grootsteGetal);}
     
 function max(getal1, getal2){
     let kleinsteGetal = Math.min(getal1, getal2)
-    console.log("Kleinste getal:" + kleinsteGetal);}
+    console.log("Kleinste getal is:" + kleinsteGetal);}
 
 
